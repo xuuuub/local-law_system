@@ -180,7 +180,7 @@ ollama pull qwen2.5:14b
 ```bash
 
 #如果是在win的cmd中
-cd /d E:\law\demo1
+cd /d 自己存放项目地址
 
 #运行了setup.bat配置好了对应环境后
 conda activate law
