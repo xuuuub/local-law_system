@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "e:\law\demo1\api\server.py", line 19, in <module>
+    from fastapi import FastAPI
+ModuleNotFoundError: No module named 'fastapi'

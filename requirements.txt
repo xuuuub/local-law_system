@@ -1,0 +1,29 @@
+# ===== 爬虫相关 =====
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+python-docx>=1.1.0
+pdfplumber>=0.10.0
+
+# ===== 向量化与检索 =====
+sentence-transformers>=5.6.0
+faiss-cpu>=1.14.3
+numpy>=2.5.0
+
+# ===== LLM =====
+ollama>=0.6.0
+
+# ===== Agent 框架（LangChain）=====
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.3.0
+
+# ===== Web 服务（第五阶段使用）=====
+fastapi>=0.109.0
+uvicorn>=0.27.0
+streamlit>=1.31.0
+
+# ===== 工具 =====
+tqdm>=4.66.0
+python-dotenv>=1.0.0

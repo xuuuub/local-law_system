@@ -1,0 +1,1213 @@
+2026-07-07 08:16:54 [INFO] build_index - 加载分段数据: 7027 条，来源: npc
+2026-07-07 08:16:54 [INFO] build_index - 加载 embedding 模型: BAAI/bge-small-zh-v1.5
+2026-07-07 08:17:31 [INFO] build_index - 加载分段数据: 7027 条，来源: npc
+2026-07-07 08:17:31 [INFO] build_index - 加载 embedding 模型: BAAI/bge-small-zh-v1.5
+2026-07-07 08:18:04 [INFO] build_index - 模型维度: 512
+2026-07-07 08:18:04 [INFO] build_index - 开始编码并构建 FAISS 索引...
+2026-07-07 08:19:41 [INFO] build_index - 索引构建完成，共 7027 条向量
+2026-07-07 08:19:41 [INFO] build_index - 索引文件: E:\law\demo1\data\vectors\npc.faiss
+2026-07-07 08:19:41 [INFO] build_index - 元数据文件: E:\law\demo1\data\vectors\npc_metadata.json
+2026-07-07 08:29:06 [INFO] build_index - 加载分段数据: 7027 条，来源: npc
+2026-07-07 08:29:06 [INFO] build_index - 文本分块完成: 7027 条分段 -> 7114 个 chunk，已保存: E:\law\demo1\data\processed\npc_chunks.json
+2026-07-07 08:29:06 [INFO] build_index - 加载 embedding 模型: BAAI/bge-small-zh-v1.5
+2026-07-07 08:29:21 [INFO] build_index - 模型维度: 512
+2026-07-07 08:29:21 [INFO] build_index - 开始编码并构建 FAISS 索引...
+2026-07-07 08:31:02 [INFO] build_index - 索引构建完成，共 7114 条向量
+2026-07-07 08:31:02 [INFO] build_index - 索引文件: E:\law\demo1\data\vectors\npc.faiss
+2026-07-07 08:31:02 [INFO] build_index - 元数据文件: E:\law\demo1\data\vectors\npc_metadata.json
+2026-07-07 08:41:56 [INFO] run_crawler - ============================================================
+2026-07-07 08:41:56 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 08:41:56 [INFO] run_crawler - 数据源: npc
+2026-07-07 08:41:56 [INFO] run_crawler - ============================================================
+2026-07-07 08:41:56 [INFO] run_crawler - 启用类型过滤，仅爬取：law，code_id=[101, 102]
+2026-07-07 08:41:56 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国宪法' ===
+2026-07-07 08:41:56 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:41:57 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国宪法', 第1页, 返回0条(共0条)
+2026-07-07 08:41:57 [INFO] npc_crawler - 关键词 '中华人民共和国宪法' 无更多数据
+2026-07-07 08:41:57 [INFO] npc_crawler - 关键词 '中华人民共和国宪法' 爬取完成, 共 0 条
+2026-07-07 08:41:57 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国民法典' ===
+2026-07-07 08:41:57 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:41:58 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国民法典', 第1页, 返回0条(共0条)
+2026-07-07 08:41:58 [INFO] npc_crawler - 关键词 '中华人民共和国民法典' 无更多数据
+2026-07-07 08:41:58 [INFO] npc_crawler - 关键词 '中华人民共和国民法典' 爬取完成, 共 0 条
+2026-07-07 08:41:58 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国刑法' ===
+2026-07-07 08:41:58 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:41:58 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国刑法', 第1页, 返回0条(共0条)
+2026-07-07 08:41:58 [INFO] npc_crawler - 关键词 '中华人民共和国刑法' 无更多数据
+2026-07-07 08:41:58 [INFO] npc_crawler - 关键词 '中华人民共和国刑法' 爬取完成, 共 0 条
+2026-07-07 08:41:58 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国劳动法' ===
+2026-07-07 08:41:58 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:41:59 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动法', 第1页, 返回0条(共0条)
+2026-07-07 08:41:59 [INFO] npc_crawler - 关键词 '中华人民共和国劳动法' 无更多数据
+2026-07-07 08:41:59 [INFO] npc_crawler - 关键词 '中华人民共和国劳动法' 爬取完成, 共 0 条
+2026-07-07 08:41:59 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国劳动合同法' ===
+2026-07-07 08:41:59 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:41:59 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动合同法', 第1页, 返回0条(共0条)
+2026-07-07 08:41:59 [INFO] npc_crawler - 关键词 '中华人民共和国劳动合同法' 无更多数据
+2026-07-07 08:41:59 [INFO] npc_crawler - 关键词 '中华人民共和国劳动合同法' 爬取完成, 共 0 条
+2026-07-07 08:41:59 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国公司法' ===
+2026-07-07 08:41:59 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:00 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国公司法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:00 [INFO] npc_crawler - 关键词 '中华人民共和国公司法' 无更多数据
+2026-07-07 08:42:00 [INFO] npc_crawler - 关键词 '中华人民共和国公司法' 爬取完成, 共 0 条
+2026-07-07 08:42:00 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国合同法' ===
+2026-07-07 08:42:00 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:01 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国合同法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:01 [INFO] npc_crawler - 关键词 '中华人民共和国合同法' 无更多数据
+2026-07-07 08:42:01 [INFO] npc_crawler - 关键词 '中华人民共和国合同法' 爬取完成, 共 0 条
+2026-07-07 08:42:01 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国婚姻法' ===
+2026-07-07 08:42:01 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:01 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国婚姻法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:01 [INFO] npc_crawler - 关键词 '中华人民共和国婚姻法' 无更多数据
+2026-07-07 08:42:01 [INFO] npc_crawler - 关键词 '中华人民共和国婚姻法' 爬取完成, 共 0 条
+2026-07-07 08:42:01 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国行政处罚法' ===
+2026-07-07 08:42:01 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:02 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国行政处罚法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:02 [INFO] npc_crawler - 关键词 '中华人民共和国行政处罚法' 无更多数据
+2026-07-07 08:42:02 [INFO] npc_crawler - 关键词 '中华人民共和国行政处罚法' 爬取完成, 共 0 条
+2026-07-07 08:42:02 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国行政复议法' ===
+2026-07-07 08:42:02 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:02 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国行政复议法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:02 [INFO] npc_crawler - 关键词 '中华人民共和国行政复议法' 无更多数据
+2026-07-07 08:42:02 [INFO] npc_crawler - 关键词 '中华人民共和国行政复议法' 爬取完成, 共 0 条
+2026-07-07 08:42:02 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国刑事诉讼法' ===
+2026-07-07 08:42:02 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:03 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国刑事诉讼法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:03 [INFO] npc_crawler - 关键词 '中华人民共和国刑事诉讼法' 无更多数据
+2026-07-07 08:42:03 [INFO] npc_crawler - 关键词 '中华人民共和国刑事诉讼法' 爬取完成, 共 0 条
+2026-07-07 08:42:03 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国民事诉讼法' ===
+2026-07-07 08:42:03 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:03 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国民事诉讼法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:03 [INFO] npc_crawler - 关键词 '中华人民共和国民事诉讼法' 无更多数据
+2026-07-07 08:42:03 [INFO] npc_crawler - 关键词 '中华人民共和国民事诉讼法' 爬取完成, 共 0 条
+2026-07-07 08:42:03 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国行政诉讼法' ===
+2026-07-07 08:42:03 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:04 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国行政诉讼法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:04 [INFO] npc_crawler - 关键词 '中华人民共和国行政诉讼法' 无更多数据
+2026-07-07 08:42:04 [INFO] npc_crawler - 关键词 '中华人民共和国行政诉讼法' 爬取完成, 共 0 条
+2026-07-07 08:42:04 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国社会保险法' ===
+2026-07-07 08:42:04 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:05 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国社会保险法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:05 [INFO] npc_crawler - 关键词 '中华人民共和国社会保险法' 无更多数据
+2026-07-07 08:42:05 [INFO] npc_crawler - 关键词 '中华人民共和国社会保险法' 爬取完成, 共 0 条
+2026-07-07 08:42:05 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国安全生产法' ===
+2026-07-07 08:42:05 [INFO] npc_crawler - 类型过滤: [101, 102]
+2026-07-07 08:42:05 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:42:08 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国安全生产法', 第1页, 返回0条(共0条)
+2026-07-07 08:42:08 [INFO] npc_crawler - 关键词 '中华人民共和国安全生产法' 无更多数据
+2026-07-07 08:42:08 [INFO] npc_crawler - 关键词 '中华人民共和国安全生产法' 爬取完成, 共 0 条
+2026-07-07 08:42:08 [INFO] npc_crawler - 全部爬取完成，去重后共 0 条
+2026-07-07 08:42:08 [INFO] npc_crawler - JSON 已保存: E:\law\demo1\data\raw\npc\npc_laws_1783384928.json
+2026-07-07 08:42:08 [INFO] npc_crawler - TXT 文件已保存: E:\law\demo1\data\raw\npc\txt (0 个文件)
+2026-07-07 08:42:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783325074.json
+2026-07-07 08:42:08 [INFO] cleaner - 文件处理完成: 2 条法律 -> 151 个分段
+2026-07-07 08:42:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327171.json
+2026-07-07 08:42:08 [INFO] cleaner - 文件处理完成: 65 条法律 -> 3729 个分段
+2026-07-07 08:42:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327357.json
+2026-07-07 08:42:08 [INFO] cleaner - 文件处理完成: 45 条法律 -> 2987 个分段
+2026-07-07 08:42:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327483.json
+2026-07-07 08:42:08 [INFO] cleaner - 文件处理完成: 20 条法律 -> 1482 个分段
+2026-07-07 08:42:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783384928.json
+2026-07-07 08:42:08 [INFO] cleaner - 文件处理完成: 0 条法律 -> 0 个分段
+2026-07-07 08:42:08 [INFO] cleaner - 全部清洗完成: 7027 个分段, 已保存: E:\law\demo1\data\processed\npc_segments.json
+2026-07-07 08:42:08 [INFO] run_crawler - 全部任务完成!
+2026-07-07 08:42:22 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动法', 第1页, 返回10条(共1534条)
+2026-07-07 08:42:44 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国民法典', 第1页, 返回5条(共3434条)
+2026-07-07 08:42:45 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国刑法', 第1页, 返回5条(共3427条)
+2026-07-07 08:42:46 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动法', 第1页, 返回5条(共3515条)
+2026-07-07 08:42:46 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动合同法', 第1页, 返回5条(共3550条)
+2026-07-07 08:42:47 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国公司法', 第1页, 返回5条(共3466条)
+2026-07-07 08:42:47 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国行政处罚法', 第1页, 返回5条(共3554条)
+2026-07-07 08:42:48 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国行政复议法', 第1页, 返回5条(共3550条)
+2026-07-07 08:42:49 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国刑事诉讼法', 第1页, 返回5条(共3434条)
+2026-07-07 08:42:49 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国民事诉讼法', 第1页, 返回5条(共3438条)
+2026-07-07 08:42:50 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国行政诉讼法', 第1页, 返回5条(共3552条)
+2026-07-07 08:43:46 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动法', 第1页, 返回1条(共1条)
+2026-07-07 08:43:46 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动法', 第1页, 返回10条(共1534条)
+2026-07-07 08:43:47 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动法', 第1页, 返回10条(共3515条)
+2026-07-07 08:43:47 [INFO] npc_crawler - 搜索成功: 关键词='劳动法', 第1页, 返回10条(共22条)
+2026-07-07 08:43:48 [INFO] npc_crawler - 搜索成功: 关键词='宪法', 第1页, 返回5条(共7条)
+2026-07-07 08:44:20 [INFO] npc_crawler - 搜索成功: 关键词='劳动合同法', 第1页, 返回2条(共2条)
+2026-07-07 08:44:21 [INFO] npc_crawler - 搜索成功: 关键词='公司法', 第1页, 返回5条(共9条)
+2026-07-07 08:44:21 [INFO] npc_crawler - 搜索成功: 关键词='民法典', 第1页, 返回5条(共30条)
+2026-07-07 08:44:22 [INFO] npc_crawler - 搜索成功: 关键词='刑法', 第1页, 返回5条(共47条)
+2026-07-07 08:44:23 [INFO] npc_crawler - 搜索成功: 关键词='行政处罚法', 第1页, 返回4条(共4条)
+2026-07-07 08:44:23 [INFO] npc_crawler - 搜索成功: 关键词='行政复议法', 第1页, 返回4条(共4条)
+2026-07-07 08:44:24 [INFO] npc_crawler - 搜索成功: 关键词='刑事诉讼法', 第1页, 返回5条(共7条)
+2026-07-07 08:44:24 [INFO] npc_crawler - 搜索成功: 关键词='民事诉讼法', 第1页, 返回5条(共5条)
+2026-07-07 08:44:25 [INFO] npc_crawler - 搜索成功: 关键词='行政诉讼法', 第1页, 返回3条(共3条)
+2026-07-07 08:44:26 [INFO] npc_crawler - 搜索成功: 关键词='社会保险法', 第1页, 返回1条(共1条)
+2026-07-07 08:44:26 [INFO] npc_crawler - 搜索成功: 关键词='安全生产法', 第1页, 返回1条(共1条)
+2026-07-07 08:45:59 [INFO] run_crawler - ============================================================
+2026-07-07 08:45:59 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 08:45:59 [INFO] run_crawler - 数据源: npc
+2026-07-07 08:45:59 [INFO] run_crawler - ============================================================
+2026-07-07 08:45:59 [INFO] run_crawler - 启用类型过滤，仅爬取：宪法+法律，code_id=[100, 150]
+2026-07-07 08:45:59 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国宪法' ===
+2026-07-07 08:45:59 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:45:59 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:46:00 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国宪法', 第1页, 返回7条(共7条)
+2026-07-07 08:46:01 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:01 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:01 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>宪</em><em class='highlight'>法</em>修正案（2018年）
+2026-07-07 08:46:03 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:03 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:03 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>宪</em><em class='highlight'>法</em>（2018年修正文本）
+2026-07-07 08:46:05 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:05 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:05 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>宪</em><em class='highlight'>法</em>修正案（2004年）
+2026-07-07 08:46:06 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:06 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:06 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>宪</em><em class='highlight'>法</em>修正案（1999年）
+2026-07-07 08:46:07 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:07 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:07 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>宪</em><em class='highlight'>法</em>修正案（1993年）
+2026-07-07 08:46:08 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:08 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:08 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>宪</em><em class='highlight'>法</em>修正案（1988年）
+2026-07-07 08:46:09 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:46:12 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:12 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:12 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>宪</em><em class='highlight'>法</em>（1982年）
+2026-07-07 08:46:12 [INFO] npc_crawler - 关键词 '中华人民共和国宪法' 爬取完成, 共 0 条
+2026-07-07 08:46:12 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国民法典' ===
+2026-07-07 08:46:12 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:46:12 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:46:13 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国民法典', 第1页, 返回36条(共36条)
+2026-07-07 08:46:14 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:14 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:14 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法（2018年修正文本）
+2026-07-07 08:46:16 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:16 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:16 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（2018年）
+2026-07-07 08:46:17 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:17 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:17 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（2004年）
+2026-07-07 08:46:18 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:18 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:18 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1999年）
+2026-07-07 08:46:19 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:19 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:19 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1993年）
+2026-07-07 08:46:21 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:21 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:21 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1988年）
+2026-07-07 08:46:21 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:46:25 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:25 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:25 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法（1982年）
+2026-07-07 08:46:26 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:26 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:26 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>慈善法
+2026-07-07 08:46:27 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:27 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:27 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>妇女权益保障法
+2026-07-07 08:46:28 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:28 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:28 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>工会法
+2026-07-07 08:46:31 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:31 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:31 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>社会救助法
+2026-07-07 08:46:32 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:32 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:32 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>危险化学品安全法
+2026-07-07 08:46:33 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:33 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:33 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>科学技术普及法
+2026-07-07 08:46:34 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:34 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:34 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>未成年人保护法
+2026-07-07 08:46:34 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:46:38 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:38 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:38 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>无障碍环境建设法
+2026-07-07 08:46:39 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:39 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:39 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>家庭教育促进法
+2026-07-07 08:46:41 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:41 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:41 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>法律援助法
+2026-07-07 08:46:42 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:42 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:42 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>安全生产法
+2026-07-07 08:46:43 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:43 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:43 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>预防未成年人犯罪法
+2026-07-07 08:46:46 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:46 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:46 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>退役军人保障法
+2026-07-07 08:46:47 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:47 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:47 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>劳动法
+2026-07-07 08:46:48 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:46:51 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:51 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:51 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>社会保险法
+2026-07-07 08:46:52 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:52 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:52 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>职业病防治法
+2026-07-07 08:46:53 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:53 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:53 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>老年人权益保障法
+2026-07-07 08:46:55 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:55 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:55 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>残疾人保障法
+2026-07-07 08:46:56 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:56 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:56 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>母婴保健法
+2026-07-07 08:46:57 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:57 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:57 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>境外非政府组织境内活动管理法
+2026-07-07 08:46:58 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:46:58 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:46:58 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>红十字会法
+2026-07-07 08:47:01 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:01 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:01 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>反家庭暴力法
+2026-07-07 08:47:01 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:47:05 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:05 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:05 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>就业促进法
+2026-07-07 08:47:06 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:06 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:06 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>特种设备安全法
+2026-07-07 08:47:08 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:08 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:08 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>劳动合同法
+2026-07-07 08:47:09 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:09 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:09 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>军人保险法
+2026-07-07 08:47:10 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:10 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:10 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>矿山安全法
+2026-07-07 08:47:11 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:11 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:11 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>归侨侨眷权益保护法
+2026-07-07 08:47:12 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:12 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:12 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>公益事业捐赠法
+2026-07-07 08:47:12 [INFO] npc_crawler - 关键词 '中华人民共和国民法典' 爬取完成, 共 0 条
+2026-07-07 08:47:12 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国刑法' ===
+2026-07-07 08:47:12 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:47:12 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:47:13 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国刑法', 第1页, 返回36条(共36条)
+2026-07-07 08:47:13 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:47:17 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:17 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:17 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法（2018年修正文本）
+2026-07-07 08:47:18 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:18 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:18 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（2018年）
+2026-07-07 08:47:19 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:19 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:19 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（2004年）
+2026-07-07 08:47:21 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:21 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:21 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1999年）
+2026-07-07 08:47:22 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:22 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:22 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1993年）
+2026-07-07 08:47:23 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:23 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:23 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1988年）
+2026-07-07 08:47:24 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:24 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:24 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法（1982年）
+2026-07-07 08:47:25 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:47:28 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:28 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:28 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>慈善法
+2026-07-07 08:47:30 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:30 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:30 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>妇女权益保障法
+2026-07-07 08:47:32 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:32 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:32 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>工会法
+2026-07-07 08:47:33 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:33 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:33 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>社会救助法
+2026-07-07 08:47:34 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:34 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:34 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>危险化学品安全法
+2026-07-07 08:47:35 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:35 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:35 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>科学技术普及法
+2026-07-07 08:47:37 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:37 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:37 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>未成年人保护法
+2026-07-07 08:47:38 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:38 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:38 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>无障碍环境建设法
+2026-07-07 08:47:38 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:47:42 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:42 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:42 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>家庭教育促进法
+2026-07-07 08:47:43 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:43 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:43 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>法律援助法
+2026-07-07 08:47:45 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:45 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:45 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>安全生产法
+2026-07-07 08:47:47 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:47 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:47 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>预防未成年人犯罪法
+2026-07-07 08:47:48 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:48 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:48 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>退役军人保障法
+2026-07-07 08:47:49 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:49 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:49 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>劳动法
+2026-07-07 08:47:50 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:50 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:50 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>社会保险法
+2026-07-07 08:47:51 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:47:54 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:54 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:54 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>职业病防治法
+2026-07-07 08:47:55 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:55 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:55 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>老年人权益保障法
+2026-07-07 08:47:57 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:57 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:57 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>残疾人保障法
+2026-07-07 08:47:58 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:47:58 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:47:58 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>母婴保健法
+2026-07-07 08:48:00 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:00 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:00 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>境外非政府组织境内活动管理法
+2026-07-07 08:48:02 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:02 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:02 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>红十字会法
+2026-07-07 08:48:03 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:03 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:03 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>反家庭暴力法
+2026-07-07 08:48:04 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:04 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:04 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>就业促进法
+2026-07-07 08:48:04 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:48:08 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:08 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:08 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>特种设备安全法
+2026-07-07 08:48:09 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:09 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:09 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>劳动合同法
+2026-07-07 08:48:10 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:10 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:10 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>军人保险法
+2026-07-07 08:48:12 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:12 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:12 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>矿山安全法
+2026-07-07 08:48:13 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:13 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:13 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>归侨侨眷权益保护法
+2026-07-07 08:48:14 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:14 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:14 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>公益事业捐赠法
+2026-07-07 08:48:14 [INFO] npc_crawler - 关键词 '中华人民共和国刑法' 爬取完成, 共 0 条
+2026-07-07 08:48:14 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国劳动法' ===
+2026-07-07 08:48:14 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:48:14 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:48:14 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动法', 第1页, 返回1条(共1条)
+2026-07-07 08:48:16 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:16 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:16 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>劳</em><em class='highlight'>动</em><em class='highlight'>法</em>
+2026-07-07 08:48:16 [INFO] npc_crawler - 关键词 '中华人民共和国劳动法' 爬取完成, 共 0 条
+2026-07-07 08:48:16 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国劳动合同法' ===
+2026-07-07 08:48:16 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:48:16 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:48:16 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:48:19 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国劳动合同法', 第1页, 返回1条(共1条)
+2026-07-07 08:48:20 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:20 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:20 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中</em><em class='highlight'>华</em><em class='highlight'>人</em><em class='highlight'>民</em><em class='highlight'>共</em><em class='highlight'>和</em><em class='highlight'>国</em><em class='highlight'>劳</em><em class='highlight'>动</em><em class='highlight'>合</em><em class='highlight'>同</em><em class='highlight'>法</em>
+2026-07-07 08:48:20 [INFO] npc_crawler - 关键词 '中华人民共和国劳动合同法' 爬取完成, 共 0 条
+2026-07-07 08:48:20 [INFO] npc_crawler - === 开始爬取关键词: '中华人民共和国公司法' ===
+2026-07-07 08:48:20 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:48:20 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:48:21 [INFO] npc_crawler - 搜索成功: 关键词='中华人民共和国公司法', 第1页, 返回36条(共36条)
+2026-07-07 08:48:23 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:23 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:23 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法（2018年修正文本）
+2026-07-07 08:48:24 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:24 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:24 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（2018年）
+2026-07-07 08:48:25 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:25 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:25 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（2004年）
+2026-07-07 08:48:26 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:26 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:26 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1999年）
+2026-07-07 08:48:27 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:27 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:27 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1993年）
+2026-07-07 08:48:28 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:48:31 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:31 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:31 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法修正案（1988年）
+2026-07-07 08:48:32 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:32 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:32 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>宪法（1982年）
+2026-07-07 08:48:34 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:34 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:34 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>慈善法
+2026-07-07 08:48:35 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:35 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:35 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>妇女权益保障法
+2026-07-07 08:48:36 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:36 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:36 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>工会法
+2026-07-07 08:48:37 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:37 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:37 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>社会救助法
+2026-07-07 08:48:39 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:39 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:39 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>危险化学品安全法
+2026-07-07 08:48:40 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:40 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:40 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>科学技术普及法
+2026-07-07 08:48:40 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:48:44 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:44 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:44 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>未成年人保护法
+2026-07-07 08:48:46 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:46 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:46 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>无障碍环境建设法
+2026-07-07 08:48:47 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:47 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:47 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>家庭教育促进法
+2026-07-07 08:48:48 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:48 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:48 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>法律援助法
+2026-07-07 08:48:49 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:49 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:49 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>安全生产法
+2026-07-07 08:48:50 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:50 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:50 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>预防未成年人犯罪法
+2026-07-07 08:48:52 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:52 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:52 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>退役军人保障法
+2026-07-07 08:48:52 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:48:56 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:56 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:56 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>劳动法
+2026-07-07 08:48:57 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:48:57 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:48:57 [WARNING] npc_crawler -   内容为空，跳过: <em class='highlight'>中华人民共和国</em>社会保险法
+2026-07-07 08:54:30 [INFO] run_crawler - ============================================================
+2026-07-07 08:54:30 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 08:54:30 [INFO] run_crawler - 数据源: npc
+2026-07-07 08:54:30 [INFO] run_crawler - ============================================================
+2026-07-07 08:54:31 [INFO] run_crawler - 启用类型过滤，仅爬取：宪法+法律，code_id=[100, 150]
+2026-07-07 08:54:31 [INFO] npc_crawler - === 开始爬取关键词: '行政处罚法' ===
+2026-07-07 08:54:31 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:54:31 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:54:32 [INFO] npc_crawler - 搜索成功: 关键词='行政处罚法', 第1页, 返回25条(共25条)
+2026-07-07 08:54:33 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:33 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:33 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国慈善<em class='highlight'>法</em>
+2026-07-07 08:54:34 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:34 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:34 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国妇女权益保障<em class='highlight'>法</em>
+2026-07-07 08:54:35 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:35 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:35 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国工会<em class='highlight'>法</em>
+2026-07-07 08:54:37 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:37 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:37 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国社会救助<em class='highlight'>法</em>
+2026-07-07 08:54:38 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:38 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:38 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国危险化学品安全<em class='highlight'>法</em>
+2026-07-07 08:54:39 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:39 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:39 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国科学技术普及<em class='highlight'>法</em>
+2026-07-07 08:54:40 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:54:43 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:43 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:43 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国家庭教育促进<em class='highlight'>法</em>
+2026-07-07 08:54:44 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:44 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:44 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国法律援助<em class='highlight'>法</em>
+2026-07-07 08:54:45 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:45 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:45 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国安全生产<em class='highlight'>法</em>
+2026-07-07 08:54:47 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:47 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:47 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国预防未成年人犯罪<em class='highlight'>法</em>
+2026-07-07 08:54:48 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:48 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:48 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国退役军人保障<em class='highlight'>法</em>
+2026-07-07 08:54:49 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:49 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:49 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国劳动<em class='highlight'>法</em>
+2026-07-07 08:54:50 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:50 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:50 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国社会保险<em class='highlight'>法</em>
+2026-07-07 08:54:52 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:52 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:52 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国职业病防治<em class='highlight'>法</em>
+2026-07-07 08:54:52 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:54:55 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:55 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:55 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国老年人权益保障<em class='highlight'>法</em>
+2026-07-07 08:54:57 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:57 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:57 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国残疾人保障<em class='highlight'>法</em>
+2026-07-07 08:54:58 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:58 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:58 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国母婴保健<em class='highlight'>法</em>
+2026-07-07 08:54:59 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:54:59 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:54:59 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国红十字会<em class='highlight'>法</em>
+2026-07-07 08:55:01 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:55:01 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:55:01 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国反家庭暴力<em class='highlight'>法</em>
+2026-07-07 08:55:02 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:55:02 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:55:02 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国就业促进<em class='highlight'>法</em>
+2026-07-07 08:55:03 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:55:03 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:55:03 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国特种设备安全<em class='highlight'>法</em>
+2026-07-07 08:55:04 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:55:07 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:55:07 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:55:07 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国劳动合同<em class='highlight'>法</em>
+2026-07-07 08:55:08 [ERROR] npc_crawler - 请安装 python-docx: pip install python-docx
+2026-07-07 08:55:08 [ERROR] npc_crawler - DOCX 解析失败: No module named 'docx'
+2026-07-07 08:55:08 [WARNING] npc_crawler -   内容为空，跳过: 中华人民共和国军人保险<em class='highlight'>法</em>
+2026-07-07 08:55:56 [INFO] run_crawler - ============================================================
+2026-07-07 08:55:56 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 08:55:56 [INFO] run_crawler - 数据源: npc
+2026-07-07 08:55:56 [INFO] run_crawler - ============================================================
+2026-07-07 08:55:57 [INFO] run_crawler - 启用类型过滤，仅爬取：宪法+法律，code_id=[100, 150]
+2026-07-07 08:55:57 [INFO] npc_crawler - === 开始爬取关键词: '行政处罚法' ===
+2026-07-07 08:55:57 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:55:57 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:55:58 [INFO] npc_crawler - 搜索成功: 关键词='行政处罚法', 第1页, 返回25条(共25条)
+2026-07-07 08:55:59 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:56:01 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:56:02 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:56:03 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:56:06 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:56:07 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:56:08 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:56:11 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:56:13 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:56:14 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:56:15 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:56:15 [INFO] npc_crawler - 关键词 '行政处罚法' 爬取完成, 共 10 条
+2026-07-07 08:56:15 [INFO] npc_crawler - === 开始爬取关键词: '行政复议法' ===
+2026-07-07 08:56:15 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:56:15 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:56:16 [INFO] npc_crawler - 搜索成功: 关键词='行政复议法', 第1页, 返回25条(共25条)
+2026-07-07 08:56:17 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:56:19 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:56:20 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:56:21 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:56:24 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:56:25 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:56:26 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:56:28 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:56:29 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:56:30 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:56:32 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:56:32 [INFO] npc_crawler - 关键词 '行政复议法' 爬取完成, 共 10 条
+2026-07-07 08:56:32 [INFO] npc_crawler - === 开始爬取关键词: '行政诉讼法' ===
+2026-07-07 08:56:32 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:56:32 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:56:33 [INFO] npc_crawler - 搜索成功: 关键词='行政诉讼法', 第1页, 返回25条(共25条)
+2026-07-07 08:56:33 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:56:37 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:56:38 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:56:39 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:56:40 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:56:42 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:56:43 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:56:45 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:56:47 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:56:47 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:56:51 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:56:52 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:56:52 [INFO] npc_crawler - 关键词 '行政诉讼法' 爬取完成, 共 10 条
+2026-07-07 08:56:52 [INFO] npc_crawler - === 开始爬取关键词: '刑事诉讼法' ===
+2026-07-07 08:56:52 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:56:52 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:56:52 [INFO] npc_crawler - 搜索成功: 关键词='刑事诉讼法', 第1页, 返回25条(共25条)
+2026-07-07 08:56:54 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:56:55 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:56:56 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:56:58 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:56:59 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:56:59 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:57:03 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:57:04 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:57:05 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:57:07 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:57:08 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:57:08 [INFO] npc_crawler - 关键词 '刑事诉讼法' 爬取完成, 共 10 条
+2026-07-07 08:57:08 [INFO] npc_crawler - === 开始爬取关键词: '民事诉讼法' ===
+2026-07-07 08:57:08 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:57:08 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:57:09 [INFO] npc_crawler - 搜索成功: 关键词='民事诉讼法', 第1页, 返回25条(共25条)
+2026-07-07 08:57:10 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:57:11 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:57:11 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:57:15 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:57:17 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:57:18 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:57:19 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:57:20 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:57:22 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:57:23 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:57:24 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:57:27 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:57:27 [INFO] npc_crawler - 关键词 '民事诉讼法' 爬取完成, 共 10 条
+2026-07-07 08:57:27 [INFO] npc_crawler - === 开始爬取关键词: '安全生产法' ===
+2026-07-07 08:57:27 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:57:27 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:57:28 [INFO] npc_crawler - 搜索成功: 关键词='安全生产法', 第1页, 返回1条(共1条)
+2026-07-07 08:57:29 [INFO] npc_crawler -   [1] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:57:29 [INFO] npc_crawler - 关键词 '安全生产法' 爬取完成, 共 1 条
+2026-07-07 08:57:29 [INFO] npc_crawler - === 开始爬取关键词: '反垄断法' ===
+2026-07-07 08:57:29 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:57:29 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:57:30 [INFO] npc_crawler - 搜索成功: 关键词='反垄断法', 第1页, 返回25条(共25条)
+2026-07-07 08:57:31 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:57:32 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:57:34 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:57:35 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:57:36 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:57:36 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:57:40 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:57:41 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:57:43 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:57:44 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:57:46 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:57:46 [INFO] npc_crawler - 关键词 '反垄断法' 爬取完成, 共 10 条
+2026-07-07 08:57:46 [INFO] npc_crawler - === 开始爬取关键词: '反不正当竞争法' ===
+2026-07-07 08:57:46 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:57:46 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:57:47 [INFO] npc_crawler - 搜索成功: 关键词='反不正当竞争法', 第1页, 返回25条(共25条)
+2026-07-07 08:57:48 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:57:49 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:57:49 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:57:53 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:57:55 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:57:56 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:57:57 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:57:58 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:58:01 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:58:04 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:58:04 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:58:08 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:58:08 [INFO] npc_crawler - 关键词 '反不正当竞争法' 爬取完成, 共 10 条
+2026-07-07 08:58:08 [INFO] npc_crawler - === 开始爬取关键词: '证券法' ===
+2026-07-07 08:58:08 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:58:08 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:58:08 [INFO] npc_crawler - 搜索成功: 关键词='证券法', 第1页, 返回25条(共25条)
+2026-07-07 08:58:10 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:58:11 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:58:12 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:58:13 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:58:16 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:58:17 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:58:18 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:58:21 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:58:22 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:58:24 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:58:25 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:58:25 [INFO] npc_crawler - 关键词 '证券法' 爬取完成, 共 10 条
+2026-07-07 08:58:25 [INFO] npc_crawler - === 开始爬取关键词: '消费者权益保护法' ===
+2026-07-07 08:58:25 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:58:25 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:58:26 [INFO] npc_crawler - 搜索成功: 关键词='消费者权益保护法', 第1页, 返回4条(共4条)
+2026-07-07 08:58:27 [INFO] npc_crawler -   [1] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:58:29 [INFO] npc_crawler -   [2] 中华人民共和国未成年人保护法 (17144 字符)
+2026-07-07 08:58:31 [INFO] npc_crawler -   [3] 中华人民共和国老年人权益保障法 (8061 字符)
+2026-07-07 08:58:31 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:58:35 [INFO] npc_crawler -   [4] 中华人民共和国归侨侨眷权益保护法 (2266 字符)
+2026-07-07 08:58:35 [INFO] npc_crawler - 关键词 '消费者权益保护法' 爬取完成, 共 4 条
+2026-07-07 08:58:35 [INFO] npc_crawler - === 开始爬取关键词: '知识产权法' ===
+2026-07-07 08:58:35 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:58:35 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:58:35 [INFO] npc_crawler - 搜索成功: 关键词='知识产权法', 第1页, 返回25条(共25条)
+2026-07-07 08:58:37 [INFO] npc_crawler -   [1] 中华人民共和国慈善法 (14027 字符)
+2026-07-07 08:58:38 [INFO] npc_crawler -   [2] 中华人民共和国妇女权益保障法 (9257 字符)
+2026-07-07 08:58:39 [INFO] npc_crawler -   [3] 中华人民共和国工会法 (6779 字符)
+2026-07-07 08:58:41 [INFO] npc_crawler -   [4] 中华人民共和国社会救助法 (7957 字符)
+2026-07-07 08:58:42 [INFO] npc_crawler -   [5] 中华人民共和国危险化学品安全法 (27984 字符)
+2026-07-07 08:58:43 [INFO] npc_crawler -   [6] 中华人民共和国科学技术普及法 (5730 字符)
+2026-07-07 08:58:44 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 08:58:47 [INFO] npc_crawler -   [7] 中华人民共和国家庭教育促进法 (6042 字符)
+2026-07-07 08:58:48 [INFO] npc_crawler -   [8] 中华人民共和国法律援助法 (6998 字符)
+2026-07-07 08:58:50 [INFO] npc_crawler -   [9] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 08:58:51 [INFO] npc_crawler -   [10] 中华人民共和国预防未成年人犯罪法 (7803 字符)
+2026-07-07 08:58:51 [INFO] npc_crawler - 关键词 '知识产权法' 爬取完成, 共 10 条
+2026-07-07 08:58:51 [INFO] npc_crawler - === 开始爬取关键词: '环境保护法' ===
+2026-07-07 08:58:51 [INFO] npc_crawler - 类型过滤: [100, 150]
+2026-07-07 08:58:51 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 08:58:51 [INFO] npc_crawler - 搜索成功: 关键词='环境保护法', 第1页, 返回3条(共3条)
+2026-07-07 08:58:53 [INFO] npc_crawler -   [1] 中华人民共和国未成年人保护法 (17144 字符)
+2026-07-07 08:58:54 [INFO] npc_crawler -   [2] 中华人民共和国无障碍环境建设法 (7288 字符)
+2026-07-07 08:58:55 [INFO] npc_crawler -   [3] 中华人民共和国归侨侨眷权益保护法 (2266 字符)
+2026-07-07 08:58:55 [INFO] npc_crawler - 关键词 '环境保护法' 爬取完成, 共 3 条
+2026-07-07 08:58:55 [INFO] npc_crawler - 全部爬取完成，去重后共 14 条
+2026-07-07 08:58:55 [INFO] npc_crawler - JSON 已保存: E:\law\demo1\data\raw\npc\npc_laws_1783385935.json
+2026-07-07 08:58:55 [INFO] npc_crawler - TXT 文件已保存: E:\law\demo1\data\raw\npc\txt (14 个文件)
+2026-07-07 08:58:55 [INFO] run_crawler - 全部任务完成!
+2026-07-07 09:00:37 [INFO] run_crawler - ============================================================
+2026-07-07 09:00:37 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:00:37 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:00:37 [INFO] run_crawler - ============================================================
+2026-07-07 09:00:38 [INFO] run_crawler - 启用类型过滤，仅爬取：宪法+法律，code_id=[100, 150]
+2026-07-07 09:00:38 [INFO] npc_crawler - === 开始爬取关键词: '行政处罚法' ===
+2026-07-07 09:00:38 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:38 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:38 [INFO] npc_crawler - 搜索成功: 关键词='行政处罚法', 第1页, 返回4条(共4条)
+2026-07-07 09:00:38 [INFO] npc_crawler - 关键词 '行政处罚法' 爬取完成, 共 0 条
+2026-07-07 09:00:38 [INFO] npc_crawler - === 开始爬取关键词: '行政复议法' ===
+2026-07-07 09:00:38 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:38 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:39 [INFO] npc_crawler - 搜索成功: 关键词='行政复议法', 第1页, 返回4条(共4条)
+2026-07-07 09:00:39 [INFO] npc_crawler - 关键词 '行政复议法' 爬取完成, 共 0 条
+2026-07-07 09:00:39 [INFO] npc_crawler - === 开始爬取关键词: '行政诉讼法' ===
+2026-07-07 09:00:39 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:39 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:40 [INFO] npc_crawler - 搜索成功: 关键词='行政诉讼法', 第1页, 返回3条(共3条)
+2026-07-07 09:00:40 [INFO] npc_crawler - 关键词 '行政诉讼法' 爬取完成, 共 0 条
+2026-07-07 09:00:40 [INFO] npc_crawler - === 开始爬取关键词: '刑事诉讼法' ===
+2026-07-07 09:00:40 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:40 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:40 [INFO] npc_crawler - 搜索成功: 关键词='刑事诉讼法', 第1页, 返回7条(共7条)
+2026-07-07 09:00:40 [INFO] npc_crawler - 关键词 '刑事诉讼法' 爬取完成, 共 0 条
+2026-07-07 09:00:40 [INFO] npc_crawler - === 开始爬取关键词: '民事诉讼法' ===
+2026-07-07 09:00:40 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:40 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:41 [INFO] npc_crawler - 搜索成功: 关键词='民事诉讼法', 第1页, 返回5条(共5条)
+2026-07-07 09:00:41 [INFO] npc_crawler - 关键词 '民事诉讼法' 爬取完成, 共 0 条
+2026-07-07 09:00:41 [INFO] npc_crawler - === 开始爬取关键词: '安全生产法' ===
+2026-07-07 09:00:41 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:41 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:41 [INFO] npc_crawler - 搜索成功: 关键词='安全生产法', 第1页, 返回1条(共1条)
+2026-07-07 09:00:43 [INFO] npc_crawler -   [1] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 09:00:43 [INFO] npc_crawler - 关键词 '安全生产法' 爬取完成, 共 1 条
+2026-07-07 09:00:43 [INFO] npc_crawler - === 开始爬取关键词: '反垄断法' ===
+2026-07-07 09:00:43 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:43 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:44 [INFO] npc_crawler - 搜索成功: 关键词='反垄断法', 第1页, 返回1条(共1条)
+2026-07-07 09:00:44 [INFO] npc_crawler - 关键词 '反垄断法' 爬取完成, 共 0 条
+2026-07-07 09:00:44 [INFO] npc_crawler - === 开始爬取关键词: '反不正当竞争法' ===
+2026-07-07 09:00:44 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:44 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:44 [INFO] npc_crawler - 搜索成功: 关键词='反不正当竞争法', 第1页, 返回6条(共6条)
+2026-07-07 09:00:44 [INFO] npc_crawler - 关键词 '反不正当竞争法' 爬取完成, 共 0 条
+2026-07-07 09:00:44 [INFO] npc_crawler - === 开始爬取关键词: '证券法' ===
+2026-07-07 09:00:44 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:44 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:45 [INFO] npc_crawler - 搜索成功: 关键词='证券法', 第1页, 返回1条(共1条)
+2026-07-07 09:00:45 [INFO] npc_crawler - 关键词 '证券法' 爬取完成, 共 0 条
+2026-07-07 09:00:45 [INFO] npc_crawler - === 开始爬取关键词: '消费者权益保护法' ===
+2026-07-07 09:00:45 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:45 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:45 [INFO] npc_crawler - 搜索成功: 关键词='消费者权益保护法', 第1页, 返回10条(共10条)
+2026-07-07 09:00:45 [INFO] npc_crawler - 关键词 '消费者权益保护法' 爬取完成, 共 0 条
+2026-07-07 09:00:45 [INFO] npc_crawler - === 开始爬取关键词: '知识产权法' ===
+2026-07-07 09:00:45 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:45 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:46 [INFO] npc_crawler - 搜索成功: 关键词='知识产权法', 第1页, 返回2条(共2条)
+2026-07-07 09:00:46 [INFO] npc_crawler - 关键词 '知识产权法' 爬取完成, 共 0 条
+2026-07-07 09:00:46 [INFO] npc_crawler - === 开始爬取关键词: '环境保护法' ===
+2026-07-07 09:00:46 [INFO] npc_crawler - 客户端类型过滤: code_id=[100, 150]
+2026-07-07 09:00:46 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:00:46 [INFO] npc_crawler - 搜索成功: 关键词='环境保护法', 第1页, 返回6条(共6条)
+2026-07-07 09:00:46 [INFO] npc_crawler - 关键词 '环境保护法' 爬取完成, 共 0 条
+2026-07-07 09:00:46 [INFO] npc_crawler - 全部爬取完成，去重后共 1 条
+2026-07-07 09:00:46 [INFO] npc_crawler - JSON 已保存: E:\law\demo1\data\raw\npc\npc_laws_1783386046.json
+2026-07-07 09:00:46 [INFO] npc_crawler - TXT 文件已保存: E:\law\demo1\data\raw\npc\txt (1 个文件)
+2026-07-07 09:00:46 [INFO] run_crawler - 全部任务完成!
+2026-07-07 09:01:08 [INFO] npc_crawler - 搜索成功: 关键词='行政处罚法', 第1页, 返回4条(共4条)
+2026-07-07 09:01:17 [INFO] npc_crawler - 搜索成功: 关键词='行政处罚法', 第1页, 返回3条(共4条)
+2026-07-07 09:01:17 [INFO] npc_crawler - 搜索成功: 关键词='民法典', 第1页, 返回3条(共30条)
+2026-07-07 09:01:18 [INFO] npc_crawler - 搜索成功: 关键词='劳动法', 第1页, 返回3条(共22条)
+2026-07-07 09:01:19 [INFO] npc_crawler - 搜索成功: 关键词='刑法', 第1页, 返回3条(共47条)
+2026-07-07 09:01:19 [INFO] npc_crawler - 搜索成功: 关键词='公司法', 第1页, 返回3条(共9条)
+2026-07-07 09:01:20 [INFO] npc_crawler - 搜索成功: 关键词='证券法', 第1页, 返回1条(共1条)
+2026-07-07 09:01:20 [INFO] npc_crawler - 搜索成功: 关键词='消费者权益保护法', 第1页, 返回3条(共10条)
+2026-07-07 09:01:21 [INFO] npc_crawler - 搜索成功: 关键词='反不正当竞争法', 第1页, 返回3条(共6条)
+2026-07-07 09:01:22 [INFO] npc_crawler - 搜索成功: 关键词='行政诉讼法', 第1页, 返回3条(共3条)
+2026-07-07 09:01:22 [INFO] npc_crawler - 搜索成功: 关键词='刑事诉讼法', 第1页, 返回3条(共7条)
+2026-07-07 09:01:23 [INFO] npc_crawler - 搜索成功: 关键词='民事诉讼法', 第1页, 返回3条(共5条)
+2026-07-07 09:03:00 [INFO] run_crawler - ============================================================
+2026-07-07 09:03:00 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:03:00 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:03:00 [INFO] run_crawler - ============================================================
+2026-07-07 09:03:00 [INFO] npc_crawler - === 开始爬取关键词: '行政处罚法' ===
+2026-07-07 09:03:00 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:00 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:01 [INFO] npc_crawler - 搜索成功: 关键词='行政处罚法', 第1页, 返回4条(共4条)
+2026-07-07 09:03:02 [INFO] npc_crawler -   [1] 中华人民共和国行政处罚法 (10418 字符)
+2026-07-07 09:03:02 [INFO] npc_crawler - 关键词 '行政处罚法' 爬取完成, 共 1 条
+2026-07-07 09:03:02 [INFO] npc_crawler - === 开始爬取关键词: '行政复议法' ===
+2026-07-07 09:03:02 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:02 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:03 [INFO] npc_crawler - 搜索成功: 关键词='行政复议法', 第1页, 返回4条(共4条)
+2026-07-07 09:03:04 [INFO] npc_crawler -   [1] 中华人民共和国行政复议法 (13218 字符)
+2026-07-07 09:03:04 [INFO] npc_crawler - 关键词 '行政复议法' 爬取完成, 共 1 条
+2026-07-07 09:03:04 [INFO] npc_crawler - === 开始爬取关键词: '行政诉讼法' ===
+2026-07-07 09:03:04 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:04 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:05 [INFO] npc_crawler - 搜索成功: 关键词='行政诉讼法', 第1页, 返回3条(共3条)
+2026-07-07 09:03:07 [INFO] npc_crawler -   [1] 中华人民共和国行政诉讼法 (11981 字符)
+2026-07-07 09:03:07 [INFO] npc_crawler - 关键词 '行政诉讼法' 爬取完成, 共 1 条
+2026-07-07 09:03:07 [INFO] npc_crawler - === 开始爬取关键词: '刑事诉讼法' ===
+2026-07-07 09:03:07 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:07 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:07 [INFO] npc_crawler - 搜索成功: 关键词='刑事诉讼法', 第1页, 返回7条(共7条)
+2026-07-07 09:03:09 [INFO] npc_crawler -   [1] 中华人民共和国刑事诉讼法 (39435 字符)
+2026-07-07 09:03:09 [INFO] npc_crawler - 关键词 '刑事诉讼法' 爬取完成, 共 1 条
+2026-07-07 09:03:09 [INFO] npc_crawler - === 开始爬取关键词: '民事诉讼法' ===
+2026-07-07 09:03:09 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:09 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:10 [INFO] npc_crawler - 搜索成功: 关键词='民事诉讼法', 第1页, 返回5条(共5条)
+2026-07-07 09:03:10 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 09:03:13 [INFO] npc_crawler -   [1] 中华人民共和国民事诉讼法 (35206 字符)
+2026-07-07 09:03:13 [INFO] npc_crawler - 关键词 '民事诉讼法' 爬取完成, 共 1 条
+2026-07-07 09:03:13 [INFO] npc_crawler - === 开始爬取关键词: '安全生产法' ===
+2026-07-07 09:03:13 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:13 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:14 [INFO] npc_crawler - 搜索成功: 关键词='安全生产法', 第1页, 返回1条(共1条)
+2026-07-07 09:03:16 [INFO] npc_crawler -   [1] 中华人民共和国安全生产法 (20204 字符)
+2026-07-07 09:03:16 [INFO] npc_crawler - 关键词 '安全生产法' 爬取完成, 共 1 条
+2026-07-07 09:03:16 [INFO] npc_crawler - === 开始爬取关键词: '反垄断法' ===
+2026-07-07 09:03:16 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:16 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:16 [INFO] npc_crawler - 搜索成功: 关键词='反垄断法', 第1页, 返回1条(共1条)
+2026-07-07 09:03:18 [INFO] npc_crawler -   [1] 中华人民共和国反垄断法 (8426 字符)
+2026-07-07 09:03:18 [INFO] npc_crawler - 关键词 '反垄断法' 爬取完成, 共 1 条
+2026-07-07 09:03:18 [INFO] npc_crawler - === 开始爬取关键词: '反不正当竞争法' ===
+2026-07-07 09:03:18 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:18 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:18 [INFO] npc_crawler - 搜索成功: 关键词='反不正当竞争法', 第1页, 返回6条(共6条)
+2026-07-07 09:03:19 [INFO] npc_crawler -   [1] 中华人民共和国反不正当竞争法 (6010 字符)
+2026-07-07 09:03:19 [INFO] npc_crawler - 关键词 '反不正当竞争法' 爬取完成, 共 1 条
+2026-07-07 09:03:19 [INFO] npc_crawler - === 开始爬取关键词: '证券法' ===
+2026-07-07 09:03:19 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:19 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:20 [INFO] npc_crawler - 搜索成功: 关键词='证券法', 第1页, 返回1条(共1条)
+2026-07-07 09:03:21 [INFO] npc_crawler -   [1] 中华人民共和国证券法 (34316 字符)
+2026-07-07 09:03:21 [INFO] npc_crawler - 关键词 '证券法' 爬取完成, 共 1 条
+2026-07-07 09:03:21 [INFO] npc_crawler - === 开始爬取关键词: '消费者权益保护法' ===
+2026-07-07 09:03:21 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:21 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:22 [INFO] npc_crawler - 搜索成功: 关键词='消费者权益保护法', 第1页, 返回10条(共10条)
+2026-07-07 09:03:23 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 09:03:26 [INFO] npc_crawler -   [1] 中华人民共和国消费者权益保护法 (8138 字符)
+2026-07-07 09:03:26 [INFO] npc_crawler - 关键词 '消费者权益保护法' 爬取完成, 共 1 条
+2026-07-07 09:03:26 [INFO] npc_crawler - === 开始爬取关键词: '知识产权法' ===
+2026-07-07 09:03:26 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:26 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:26 [INFO] npc_crawler - 搜索成功: 关键词='知识产权法', 第1页, 返回2条(共2条)
+2026-07-07 09:03:26 [INFO] npc_crawler - 关键词 '知识产权法' 爬取完成, 共 0 条
+2026-07-07 09:03:26 [INFO] npc_crawler - === 开始爬取关键词: '环境保护法' ===
+2026-07-07 09:03:26 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:03:26 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:03:27 [INFO] npc_crawler - 搜索成功: 关键词='环境保护法', 第1页, 返回6条(共6条)
+2026-07-07 09:03:28 [INFO] npc_crawler -   [1] 中华人民共和国海洋环境保护法 (20556 字符)
+2026-07-07 09:03:31 [INFO] npc_crawler -   [2] 中华人民共和国环境保护法 (8430 字符)
+2026-07-07 09:03:31 [INFO] npc_crawler - 关键词 '环境保护法' 爬取完成, 共 2 条
+2026-07-07 09:03:31 [INFO] npc_crawler - 全部爬取完成，去重后共 12 条
+2026-07-07 09:03:31 [INFO] npc_crawler - JSON 已保存: E:\law\demo1\data\raw\npc\npc_laws_1783386211.json
+2026-07-07 09:03:31 [INFO] npc_crawler - TXT 文件已保存: E:\law\demo1\data\raw\npc\txt (12 个文件)
+2026-07-07 09:03:31 [INFO] run_crawler - 全部任务完成!
+2026-07-07 09:03:41 [INFO] run_crawler - ============================================================
+2026-07-07 09:03:41 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:03:41 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:03:41 [INFO] run_crawler - ============================================================
+2026-07-07 09:03:41 [INFO] cleaner - 法律类型过滤: ['宪法', '法律']
+2026-07-07 09:03:41 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783325074.json
+2026-07-07 09:03:41 [INFO] cleaner - 文件处理完成: 2 条法律 -> 116 个分段
+2026-07-07 09:03:41 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327171.json
+2026-07-07 09:03:41 [INFO] cleaner - 文件处理完成: 65 条法律 -> 2610 个分段
+2026-07-07 09:03:41 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327357.json
+2026-07-07 09:03:41 [INFO] cleaner - 文件处理完成: 45 条法律 -> 2563 个分段
+2026-07-07 09:03:41 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327483.json
+2026-07-07 09:03:41 [INFO] cleaner - 文件处理完成: 20 条法律 -> 1285 个分段
+2026-07-07 09:03:41 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783386211.json
+2026-07-07 09:03:42 [INFO] cleaner - 文件处理完成: 12 条法律 -> 1781 个分段
+2026-07-07 09:03:42 [INFO] cleaner - 全部清洗完成: 6872 个分段, 已保存: E:\law\demo1\data\processed\npc_segments.json
+2026-07-07 09:04:01 [INFO] build_index - 加载分段数据: 6872 条，来源: npc
+2026-07-07 09:04:01 [INFO] build_index - 文本分块完成: 6872 条分段 -> 6918 个 chunk，已保存: E:\law\demo1\data\processed\npc_chunks.json
+2026-07-07 09:04:01 [INFO] build_index - 加载 embedding 模型: BAAI/bge-small-zh-v1.5
+2026-07-07 09:04:16 [INFO] build_index - 模型维度: 512
+2026-07-07 09:04:16 [INFO] build_index - 开始编码并构建 FAISS 索引...
+2026-07-07 09:06:31 [INFO] build_index - 索引构建完成，共 6918 条向量
+2026-07-07 09:06:31 [INFO] build_index - 索引文件: E:\law\demo1\data\vectors\npc.faiss
+2026-07-07 09:06:31 [INFO] build_index - 元数据文件: E:\law\demo1\data\vectors\npc_metadata.json
+2026-07-07 09:18:29 [INFO] run_crawler - ============================================================
+2026-07-07 09:18:29 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:18:29 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:18:29 [INFO] run_crawler - ============================================================
+2026-07-07 09:18:29 [INFO] npc_crawler - === 开始爬取关键词: '行政许可法' ===
+2026-07-07 09:18:29 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:29 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:30 [INFO] npc_crawler - 搜索成功: 关键词='行政许可法', 第1页, 返回1条(共1条)
+2026-07-07 09:18:32 [INFO] npc_crawler -   [1] 中华人民共和国行政许可法 (11214 字符)
+2026-07-07 09:18:32 [INFO] npc_crawler - 关键词 '行政许可法' 爬取完成, 共 1 条
+2026-07-07 09:18:32 [INFO] npc_crawler - === 开始爬取关键词: '行政强制法' ===
+2026-07-07 09:18:32 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:32 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:33 [INFO] npc_crawler - 搜索成功: 关键词='行政强制法', 第1页, 返回1条(共1条)
+2026-07-07 09:18:34 [INFO] npc_crawler -   [1] 中华人民共和国行政强制法 (9241 字符)
+2026-07-07 09:18:34 [INFO] npc_crawler - 关键词 '行政强制法' 爬取完成, 共 1 条
+2026-07-07 09:18:34 [INFO] npc_crawler - === 开始爬取关键词: '国家赔偿法' ===
+2026-07-07 09:18:34 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:34 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:35 [INFO] npc_crawler - 搜索成功: 关键词='国家赔偿法', 第1页, 返回6条(共6条)
+2026-07-07 09:18:36 [INFO] npc_crawler -   [1] 中华人民共和国国家赔偿法 (6707 字符)
+2026-07-07 09:18:36 [INFO] npc_crawler - 关键词 '国家赔偿法' 爬取完成, 共 1 条
+2026-07-07 09:18:36 [INFO] npc_crawler - === 开始爬取关键词: '专利法' ===
+2026-07-07 09:18:36 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:36 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:37 [INFO] npc_crawler - 搜索成功: 关键词='专利法', 第1页, 返回2条(共2条)
+2026-07-07 09:18:38 [INFO] npc_crawler -   [1] 中华人民共和国专利法 (11299 字符)
+2026-07-07 09:18:38 [INFO] npc_crawler - 关键词 '专利法' 爬取完成, 共 1 条
+2026-07-07 09:18:38 [INFO] npc_crawler - === 开始爬取关键词: '商标法' ===
+2026-07-07 09:18:38 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:38 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:39 [INFO] npc_crawler - 搜索成功: 关键词='商标法', 第1页, 返回3条(共3条)
+2026-07-07 09:18:40 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 09:18:43 [INFO] npc_crawler -   [1] 中华人民共和国商标法 (11886 字符)
+2026-07-07 09:18:43 [INFO] npc_crawler - 关键词 '商标法' 爬取完成, 共 1 条
+2026-07-07 09:18:43 [INFO] npc_crawler - === 开始爬取关键词: '著作权法' ===
+2026-07-07 09:18:43 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:43 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:43 [INFO] npc_crawler - 搜索成功: 关键词='著作权法', 第1页, 返回2条(共2条)
+2026-07-07 09:18:45 [INFO] npc_crawler -   [1] 中华人民共和国著作权法 (11080 字符)
+2026-07-07 09:18:45 [INFO] npc_crawler - 关键词 '著作权法' 爬取完成, 共 1 条
+2026-07-07 09:18:45 [INFO] npc_crawler - === 开始爬取关键词: '企业破产法' ===
+2026-07-07 09:18:45 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:45 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:46 [INFO] npc_crawler - 搜索成功: 关键词='企业破产法', 第1页, 返回6条(共6条)
+2026-07-07 09:18:47 [INFO] npc_crawler -   [1] 中华人民共和国企业破产法 (15188 字符)
+2026-07-07 09:18:47 [INFO] npc_crawler - 关键词 '企业破产法' 爬取完成, 共 1 条
+2026-07-07 09:18:47 [INFO] npc_crawler - === 开始爬取关键词: '合伙企业法' ===
+2026-07-07 09:18:47 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:47 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:48 [INFO] npc_crawler - 搜索成功: 关键词='合伙企业法', 第1页, 返回1条(共1条)
+2026-07-07 09:18:50 [INFO] npc_crawler -   [1] 中华人民共和国合伙企业法 (10186 字符)
+2026-07-07 09:18:50 [INFO] npc_crawler - 关键词 '合伙企业法' 爬取完成, 共 1 条
+2026-07-07 09:18:50 [INFO] npc_crawler - 全部爬取完成，去重后共 8 条
+2026-07-07 09:18:50 [INFO] npc_crawler - JSON 已保存: E:\law\demo1\data\raw\npc\npc_laws_1783387130.json
+2026-07-07 09:18:50 [INFO] npc_crawler - TXT 文件已保存: E:\law\demo1\data\raw\npc\txt (8 个文件)
+2026-07-07 09:18:50 [INFO] run_crawler - 全部任务完成!
+2026-07-07 09:18:54 [INFO] run_crawler - ============================================================
+2026-07-07 09:18:54 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:18:54 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:18:54 [INFO] run_crawler - ============================================================
+2026-07-07 09:18:55 [INFO] npc_crawler - === 开始爬取关键词: '招标投标法' ===
+2026-07-07 09:18:55 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:55 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:56 [INFO] npc_crawler - 搜索成功: 关键词='招标投标法', 第1页, 返回12条(共12条)
+2026-07-07 09:18:57 [INFO] npc_crawler -   [1] 中华人民共和国招标投标法 (7728 字符)
+2026-07-07 09:18:57 [INFO] npc_crawler - 关键词 '招标投标法' 爬取完成, 共 1 条
+2026-07-07 09:18:57 [INFO] npc_crawler - === 开始爬取关键词: '政府采购法' ===
+2026-07-07 09:18:57 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:57 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:18:58 [INFO] npc_crawler - 搜索成功: 关键词='政府采购法', 第1页, 返回3条(共3条)
+2026-07-07 09:18:59 [INFO] npc_crawler -   [1] 中华人民共和国政府采购法 (9394 字符)
+2026-07-07 09:18:59 [INFO] npc_crawler - 关键词 '政府采购法' 爬取完成, 共 1 条
+2026-07-07 09:18:59 [INFO] npc_crawler - === 开始爬取关键词: '网络安全法' ===
+2026-07-07 09:18:59 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:18:59 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:19:00 [INFO] npc_crawler - 搜索成功: 关键词='网络安全法', 第1页, 返回1条(共1条)
+2026-07-07 09:19:01 [INFO] npc_crawler -   [1] 中华人民共和国网络安全法 (11037 字符)
+2026-07-07 09:19:01 [INFO] npc_crawler - 关键词 '网络安全法' 爬取完成, 共 1 条
+2026-07-07 09:19:01 [INFO] npc_crawler - === 开始爬取关键词: '数据安全法' ===
+2026-07-07 09:19:01 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:19:01 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:19:01 [INFO] npc_crawler - 搜索成功: 关键词='数据安全法', 第1页, 返回1条(共1条)
+2026-07-07 09:19:03 [INFO] npc_crawler -   [1] 中华人民共和国数据安全法 (5646 字符)
+2026-07-07 09:19:03 [INFO] npc_crawler - 关键词 '数据安全法' 爬取完成, 共 1 条
+2026-07-07 09:19:03 [INFO] npc_crawler - === 开始爬取关键词: '就业促进法' ===
+2026-07-07 09:19:03 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:19:03 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:19:03 [INFO] npc_crawler - 搜索成功: 关键词='就业促进法', 第1页, 返回8条(共8条)
+2026-07-07 09:19:04 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 09:19:07 [INFO] npc_crawler -   [1] 中华人民共和国就业促进法 (6254 字符)
+2026-07-07 09:19:07 [INFO] npc_crawler - 关键词 '就业促进法' 爬取完成, 共 1 条
+2026-07-07 09:19:07 [INFO] npc_crawler - === 开始爬取关键词: '职业病防治法' ===
+2026-07-07 09:19:07 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:19:07 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:19:08 [INFO] npc_crawler - 搜索成功: 关键词='职业病防治法', 第1页, 返回1条(共1条)
+2026-07-07 09:19:09 [INFO] npc_crawler -   [1] 中华人民共和国职业病防治法 (14288 字符)
+2026-07-07 09:19:09 [INFO] npc_crawler - 关键词 '职业病防治法' 爬取完成, 共 1 条
+2026-07-07 09:19:09 [INFO] npc_crawler - === 开始爬取关键词: '残疾人保障法' ===
+2026-07-07 09:19:09 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:19:09 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:19:10 [INFO] npc_crawler - 搜索成功: 关键词='残疾人保障法', 第1页, 返回22条(共22条)
+2026-07-07 09:19:11 [INFO] npc_crawler -   [1] 中华人民共和国残疾人保障法 (7851 字符)
+2026-07-07 09:19:11 [INFO] npc_crawler - 关键词 '残疾人保障法' 爬取完成, 共 1 条
+2026-07-07 09:19:11 [INFO] npc_crawler - === 开始爬取关键词: '税收征收管理法' ===
+2026-07-07 09:19:11 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:19:11 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:19:12 [INFO] npc_crawler - 搜索成功: 关键词='税收征收管理法', 第1页, 返回2条(共2条)
+2026-07-07 09:19:13 [INFO] npc_crawler -   [1] 中华人民共和国税收征收管理法 (11539 字符)
+2026-07-07 09:19:13 [INFO] npc_crawler - 关键词 '税收征收管理法' 爬取完成, 共 1 条
+2026-07-07 09:19:13 [INFO] npc_crawler - 全部爬取完成，去重后共 8 条
+2026-07-07 09:19:13 [INFO] npc_crawler - JSON 已保存: E:\law\demo1\data\raw\npc\npc_laws_1783387153.json
+2026-07-07 09:19:13 [INFO] npc_crawler - TXT 文件已保存: E:\law\demo1\data\raw\npc\txt (8 个文件)
+2026-07-07 09:19:13 [INFO] run_crawler - 全部任务完成!
+2026-07-07 09:19:30 [INFO] run_crawler - ============================================================
+2026-07-07 09:19:30 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:19:30 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:19:30 [INFO] run_crawler - ============================================================
+2026-07-07 09:19:30 [INFO] cleaner - 法律类型过滤: ['宪法', '法律']
+2026-07-07 09:19:30 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783325074.json
+2026-07-07 09:19:30 [INFO] cleaner - 文件处理完成: 2 条法律 -> 116 个分段
+2026-07-07 09:19:30 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327171.json
+2026-07-07 09:19:30 [INFO] cleaner - 文件处理完成: 65 条法律 -> 2610 个分段
+2026-07-07 09:19:30 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327357.json
+2026-07-07 09:19:30 [INFO] cleaner - 文件处理完成: 45 条法律 -> 2563 个分段
+2026-07-07 09:19:30 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327483.json
+2026-07-07 09:19:30 [INFO] cleaner - 文件处理完成: 20 条法律 -> 1285 个分段
+2026-07-07 09:19:30 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783386211.json
+2026-07-07 09:19:30 [INFO] cleaner - 文件处理完成: 12 条法律 -> 1781 个分段
+2026-07-07 09:19:30 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387130.json
+2026-07-07 09:19:30 [INFO] cleaner - 文件处理完成: 8 条法律 -> 804 个分段
+2026-07-07 09:19:30 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387153.json
+2026-07-07 09:19:30 [INFO] cleaner - 文件处理完成: 8 条法律 -> 673 个分段
+2026-07-07 09:19:30 [INFO] cleaner - 全部清洗完成: 8149 个分段, 已保存: E:\law\demo1\data\processed\npc_segments.json
+2026-07-07 09:19:46 [INFO] build_index - 加载分段数据: 8149 条，来源: npc
+2026-07-07 09:19:46 [INFO] build_index - 文本分块完成: 8149 条分段 -> 8178 个 chunk，已保存: E:\law\demo1\data\processed\npc_chunks.json
+2026-07-07 09:19:46 [INFO] build_index - 加载 embedding 模型: BAAI/bge-small-zh-v1.5
+2026-07-07 09:20:00 [INFO] build_index - 模型维度: 512
+2026-07-07 09:20:00 [INFO] build_index - 开始编码并构建 FAISS 索引...
+2026-07-07 09:25:20 [INFO] build_index - 索引构建完成，共 8178 条向量
+2026-07-07 09:25:20 [INFO] build_index - 索引文件: E:\law\demo1\data\vectors\npc.faiss
+2026-07-07 09:25:20 [INFO] build_index - 元数据文件: E:\law\demo1\data\vectors\npc_metadata.json
+2026-07-07 09:35:19 [INFO] run_crawler - ============================================================
+2026-07-07 09:35:19 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:35:19 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:35:19 [INFO] run_crawler - ============================================================
+2026-07-07 09:35:20 [INFO] npc_crawler - === 开始爬取关键词: '土地管理法' ===
+2026-07-07 09:35:20 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:35:20 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:35:21 [INFO] npc_crawler - 搜索成功: 关键词='土地管理法', 第1页, 返回17条(共17条)
+2026-07-07 09:35:23 [INFO] npc_crawler -   [1] 中华人民共和国土地管理法 (13452 字符)
+2026-07-07 09:35:23 [INFO] npc_crawler - 关键词 '土地管理法' 爬取完成, 共 1 条
+2026-07-07 09:35:23 [INFO] npc_crawler - === 开始爬取关键词: '治安管理处罚法' ===
+2026-07-07 09:35:23 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:35:23 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:35:23 [INFO] npc_crawler - 搜索成功: 关键词='治安管理处罚法', 第1页, 返回1条(共1条)
+2026-07-07 09:35:24 [INFO] npc_crawler -   [1] 中华人民共和国治安管理处罚法 (21598 字符)
+2026-07-07 09:35:24 [INFO] npc_crawler - 关键词 '治安管理处罚法' 爬取完成, 共 1 条
+2026-07-07 09:35:24 [INFO] npc_crawler - === 开始爬取关键词: '传染病防治法' ===
+2026-07-07 09:35:24 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:35:24 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:35:25 [INFO] npc_crawler - 搜索成功: 关键词='传染病防治法', 第1页, 返回3条(共3条)
+2026-07-07 09:35:26 [INFO] npc_crawler -   [1] 中华人民共和国传染病防治法 (22680 字符)
+2026-07-07 09:35:26 [INFO] npc_crawler - 关键词 '传染病防治法' 爬取完成, 共 1 条
+2026-07-07 09:35:26 [INFO] npc_crawler - === 开始爬取关键词: '仲裁法' ===
+2026-07-07 09:35:26 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:35:26 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:35:27 [INFO] npc_crawler - 搜索成功: 关键词='仲裁法', 第1页, 返回4条(共4条)
+2026-07-07 09:35:28 [INFO] npc_crawler -   [1] 中华人民共和国仲裁法 (9258 字符)
+2026-07-07 09:35:30 [INFO] npc_crawler -   [2] 中华人民共和国农村土地承包经营纠纷调解仲裁法 (5732 字符)
+2026-07-07 09:35:30 [INFO] npc_crawler - 已请求 15 次，长延时 3s 避免限流...
+2026-07-07 09:35:34 [INFO] npc_crawler -   [3] 中华人民共和国劳动争议调解仲裁法 (5714 字符)
+2026-07-07 09:35:34 [INFO] npc_crawler - 关键词 '仲裁法' 爬取完成, 共 3 条
+2026-07-07 09:35:34 [INFO] npc_crawler - === 开始爬取关键词: '证券投资基金法' ===
+2026-07-07 09:35:34 [INFO] npc_crawler - 客户端类型过滤: ['宪法', '法律']
+2026-07-07 09:35:34 [INFO] npc_crawler - 搜索类型: 精确匹配
+2026-07-07 09:35:35 [INFO] npc_crawler - 搜索成功: 关键词='证券投资基金法', 第1页, 返回1条(共1条)
+2026-07-07 09:35:37 [INFO] npc_crawler -   [1] 中华人民共和国证券投资基金法 (21664 字符)
+2026-07-07 09:35:37 [INFO] npc_crawler - 关键词 '证券投资基金法' 爬取完成, 共 1 条
+2026-07-07 09:35:37 [INFO] npc_crawler - 全部爬取完成，去重后共 7 条
+2026-07-07 09:35:37 [INFO] npc_crawler - JSON 已保存: E:\law\demo1\data\raw\npc\npc_laws_1783388137.json
+2026-07-07 09:35:37 [INFO] npc_crawler - TXT 文件已保存: E:\law\demo1\data\raw\npc\txt (7 个文件)
+2026-07-07 09:35:37 [INFO] run_crawler - 全部任务完成!
+2026-07-07 09:36:08 [INFO] run_crawler - ============================================================
+2026-07-07 09:36:08 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:36:08 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:36:08 [INFO] run_crawler - ============================================================
+2026-07-07 09:36:08 [INFO] cleaner - 法律类型过滤: ['宪法', '法律']
+2026-07-07 09:36:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783325074.json
+2026-07-07 09:36:08 [INFO] cleaner - 文件处理完成: 2 条法律 -> 116 个分段
+2026-07-07 09:36:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327171.json
+2026-07-07 09:36:08 [INFO] cleaner - 文件处理完成: 65 条法律 -> 2610 个分段
+2026-07-07 09:36:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327357.json
+2026-07-07 09:36:08 [INFO] cleaner - 文件处理完成: 45 条法律 -> 2563 个分段
+2026-07-07 09:36:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327483.json
+2026-07-07 09:36:08 [INFO] cleaner - 文件处理完成: 20 条法律 -> 1285 个分段
+2026-07-07 09:36:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783386211.json
+2026-07-07 09:36:08 [INFO] cleaner - 文件处理完成: 12 条法律 -> 1781 个分段
+2026-07-07 09:36:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387130.json
+2026-07-07 09:36:08 [INFO] cleaner - 文件处理完成: 8 条法律 -> 804 个分段
+2026-07-07 09:36:08 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387153.json
+2026-07-07 09:36:09 [INFO] cleaner - 文件处理完成: 8 条法律 -> 673 个分段
+2026-07-07 09:36:09 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783388137.json
+2026-07-07 09:36:09 [INFO] cleaner - 文件处理完成: 7 条法律 -> 765 个分段
+2026-07-07 09:36:09 [INFO] cleaner - 全部清洗完成: 8798 个分段, 已保存: E:\law\demo1\data\processed\npc_segments.json
+2026-07-07 09:36:24 [INFO] build_index - 加载分段数据: 8798 条，来源: npc
+2026-07-07 09:36:25 [INFO] build_index - 文本分块完成: 8798 条分段 -> 8835 个 chunk，已保存: E:\law\demo1\data\processed\npc_chunks.json
+2026-07-07 09:36:25 [INFO] build_index - 加载 embedding 模型: BAAI/bge-large-zh-v1.5
+2026-07-07 09:38:47 [INFO] build_index - 模型维度: 1024
+2026-07-07 09:38:47 [INFO] build_index - 开始编码并构建 FAISS 索引...
+2026-07-07 09:48:29 [INFO] run_crawler - ============================================================
+2026-07-07 09:48:29 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 09:48:29 [INFO] run_crawler - 数据源: npc
+2026-07-07 09:48:29 [INFO] run_crawler - ============================================================
+2026-07-07 09:48:29 [INFO] cleaner - 法律类型过滤: ['宪法', '法律']
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783325074.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 2 条法律 -> 116 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327171.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 65 条法律 -> 2610 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327357.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 45 条法律 -> 2563 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327483.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 20 条法律 -> 1285 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783386211.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 12 条法律 -> 1781 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387130.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 8 条法律 -> 804 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387153.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 8 条法律 -> 673 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783388137.json
+2026-07-07 09:48:29 [INFO] cleaner - 文件处理完成: 7 条法律 -> 765 个分段
+2026-07-07 09:48:29 [INFO] cleaner - 全部清洗完成: 8798 个分段, 已保存: E:\law\demo1\data\processed\npc_segments.json
+2026-07-07 09:48:43 [INFO] build_index - 加载分段数据: 8798 条，来源: npc
+2026-07-07 09:48:43 [INFO] build_index - 文本分块完成: 8798 条分段 -> 8835 个 chunk，已保存: E:\law\demo1\data\processed\npc_chunks.json
+2026-07-07 09:48:43 [INFO] build_index - 加载 embedding 模型: BAAI/bge-large-zh-v1.5
+2026-07-07 09:48:58 [INFO] build_index - 模型维度: 1024
+2026-07-07 09:48:58 [INFO] build_index - 开始编码并构建 FAISS 索引...
+2026-07-07 10:03:19 [INFO] run_crawler - ============================================================
+2026-07-07 10:03:19 [INFO] run_crawler - 法律法规爬虫启动
+2026-07-07 10:03:19 [INFO] run_crawler - 数据源: npc
+2026-07-07 10:03:19 [INFO] run_crawler - ============================================================
+2026-07-07 10:03:19 [INFO] cleaner - 法律类型过滤: ['宪法', '法律']
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783325074.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 2 条法律 -> 116 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327171.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 65 条法律 -> 2610 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327357.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 45 条法律 -> 2563 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783327483.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 20 条法律 -> 1285 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783386211.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 12 条法律 -> 1781 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387130.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 8 条法律 -> 804 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783387153.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 8 条法律 -> 673 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 处理文件: E:\law\demo1\data\raw\npc\npc_laws_1783388137.json
+2026-07-07 10:03:19 [INFO] cleaner - 文件处理完成: 7 条法律 -> 765 个分段
+2026-07-07 10:03:19 [INFO] cleaner - 全部清洗完成: 8798 个分段, 已保存: E:\law\demo1\data\processed\npc_segments.json
+2026-07-07 10:03:34 [INFO] build_index - 加载分段数据: 8798 条，来源: npc
+2026-07-07 10:03:35 [INFO] build_index - 文本分块完成: 8798 条分段 -> 8835 个 chunk，已保存: E:\law\demo1\data\processed\npc_chunks.json
+2026-07-07 10:03:35 [INFO] build_index - 加载 embedding 模型: BAAI/bge-large-zh-v1.5
+2026-07-07 10:04:00 [INFO] build_index - 模型维度: 1024
+2026-07-07 10:04:00 [INFO] build_index - 开始编码并构建 FAISS 索引...
+2026-07-07 10:22:12 [INFO] build_index - 索引构建完成，共 8835 条向量
+2026-07-07 10:22:12 [INFO] build_index - 索引文件: E:\law\demo1\data\vectors\npc.faiss
+2026-07-07 10:22:12 [INFO] build_index - 元数据文件: E:\law\demo1\data\vectors\npc_metadata.json
