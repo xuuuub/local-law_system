@@ -71,8 +71,7 @@ demo1/
 │
 ├── evaluation/              # 测试评估
 │   ├── test_questions.json  #   100 条标注问题
-│   ├── run_eval.py          #   批量评估脚本（多Agent）
-│   └── auto_eval.py         #   自动评估评分
+│   └── test_results.json         #   测试结果
 │
 ├── scripts/
 │   ├── run_crawler.py       #   爬虫入口
